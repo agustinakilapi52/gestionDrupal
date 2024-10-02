@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/legacy-project',
-        'pretty_version' => '10.3.5',
-        'version' => '10.3.5.0',
-        'reference' => 'a8af5b65e3995a545134f8a5782996e4d85b8418',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9e0ead4b8f2c120a29c7c6e4a7f8fa21882e360c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -254,11 +254,20 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '10.3.5',
-            'version' => '10.3.5.0',
-            'reference' => 'a8af5b65e3995a545134f8a5782996e4d85b8418',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9e0ead4b8f2c120a29c7c6e4a7f8fa21882e360c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/webform' => array(
+            'pretty_version' => '6.2.7',
+            'version' => '6.2.7.0',
+            'reference' => '6.2.7',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/webform',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

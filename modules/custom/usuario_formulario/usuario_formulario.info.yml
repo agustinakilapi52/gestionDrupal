@@ -1,0 +1,7 @@
+name: 'Formulario de alta de usuario'
+type: module
+description: 'Módulo para el formulario de alta de usuario.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:user

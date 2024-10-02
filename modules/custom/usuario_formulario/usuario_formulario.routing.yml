@@ -1,0 +1,7 @@
+usuario_formulario.alta: # Nombre de la ruta
+  path: '/usuario/alta' # URL del formulario
+  defaults:
+    _form: '\Drupal\usuario_formulario\Form\UsuarioAltaForm' # Clase de formulario que se ejecuta
+    _title: 'Alta de usuario' # Título de la página
+  requirements:
+    _permission: 'administer users' # Permiso requerido para acceder a la ruta
